@@ -1,6 +1,6 @@
 const seasons = [
   {
-    time: "spring",
+    time: "Spring",
     crops: {
       single: ["cauliflower", "potato", "parsnip"],
       multiple: ["strawberry", "green bean", "coffee bean"],
@@ -9,7 +9,7 @@ const seasons = [
     festivals: ["egg festival", "desert festival", "flower dance"],
   },
   {
-    time: "summer",
+    time: "Summer",
     crops: {
       single: ["melon", "red cabbage", "sunflower"],
       multiple: ["blueberry", "corn", "coffee bean", "hops"],
@@ -17,7 +17,7 @@ const seasons = [
     festivals: ["luau", "trout derby", "dance of moonlight jellies"],
   },
   {
-    time: "fall",
+    time: "Fall",
     crops: {
       single: ["pumpkin", "artichoke", "sunflower"],
       multiple: ["corn", "cranberries", "eggplant"],
