@@ -16,6 +16,7 @@ const seasonsSchema = new mongoose.Schema({
   time: {
     type: String,
     required: true,
+    unique: true //users cant add duplicate type
   },
   crops: {
     type: cropsSchema,
@@ -24,6 +25,7 @@ const seasonsSchema = new mongoose.Schema({
   festivals: {
     type: [String],
     default: true,
+    unique: true
   },
 });
 
