@@ -25,3 +25,4 @@ const seasons = [
     festivals: ["stardew valley fair", "spirits eve"],
   },
 ];
+export default seasons;
