@@ -42,3 +42,4 @@ const animals = [
         produces: ["truffle"]
     }
 ];
+export default animals;
