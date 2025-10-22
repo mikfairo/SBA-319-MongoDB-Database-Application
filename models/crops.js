@@ -23,6 +23,8 @@ const singleCropsSchema = new mongoose.Schema({
   },
 });
 
+singleCropsSchema.index({ name: -1 }); 
+
 const SingleCrops = mongoose.model("singlecrops", singleCropsSchema, "singlecrops");
 
 export default SingleCrops;

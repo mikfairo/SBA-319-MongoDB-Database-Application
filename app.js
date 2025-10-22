@@ -8,6 +8,8 @@ import seasons from "./data/seasons-data.js";
 import Animals from "./models/animals.js";
 import animals from "./data/animals-data.js";
 import seasonsRouter from "./routes/seasons.js";
+import cropsRouter from "./routes/crops.js";
+import animalsRouter from "./routes/animals.js";
 
 const ATLAS_URI = process.env.ATLAS_URI;
 
@@ -28,6 +30,8 @@ const app = express();
 
 app.use(express.json());
 app.use("/seasons", seasonsRouter);
+app.use("/crops", cropsRouter);
+app.use("/animals", animalsRouter);
 
 app.get("/", (req, res) => {
   res.send("Its running!");

@@ -24,8 +24,7 @@ const seasonsSchema = new mongoose.Schema({
   },
   festivals: {
     type: [String],
-    default: true,
-    unique: true
+    default: [],
   },
 });
 
